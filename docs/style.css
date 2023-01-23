@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Outfit:wght@400;700&display=swap');
+
+body{
+	font-family: 'Fraunces', serif;
+	font-family: 'Outfit', sans-serif;
+	background-color:   hsl(212, 45%, 89%);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap:20px;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper{
+	border-radius: 18px;
+	background-color:hsl(0, 0%, 100%);
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 #57575748;
+}
+
+.container{
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20rem;
+}
+
+img{
+	width:20rem;
+	height: 20rem;
+	border-radius: 18px;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	gap: 15px;
+	text-align: center;
+	padding:15px;
+	margin: 0;
+}
+
+h2{
+	font-weight: bolder;
+	color:hsl(218, 44%, 22%);
+}
+
+p{
+	font-size: 15px;
+	font-weight: 500;
+	width:95%;
+	align-self: center;
+	color: hsl(220, 15%, 55%);
+}
+
+.attribution{
+	
+}
